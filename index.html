@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Calculadora en línea para determinar la clasificación KDIGO IRA según los parámetros de creatinina, peso y diuresis. Herramienta útil para el seguimiento de la insuficiencia renal aguda.">
+    <meta name="description" content="Calculadora en línea para determinar la clasificación KDIGO IRA según los parámetros de creatinina, peso y diuresis, útil para el seguimiento de la insuficiencia renal aguda. Calcula el grado de insuficiencia renal aguda según los estándares KDIGO.">
     <meta name="robots" content="index, follow">
+    <meta name="keywords" content="calcular KDIGO IRA, calcular KDIGO insuficiencia renal aguda, clasificación KDIGO, insuficiencia renal, calculadora KDIGO, insuficiencia renal aguda">
     <meta property="og:title" content="Calculadora KDIGO IRA">
-    <meta property="og:description" content="Calculadora en línea para determinar la clasificación KDIGO IRA según los parámetros de creatinina, peso y diuresis.">
+    <meta property="og:description" content="Calculadora en línea para determinar la clasificación KDIGO IRA según los parámetros de creatinina, peso y diuresis. Útil para el diagnóstico y seguimiento de la insuficiencia renal aguda.">
     <meta property="og:url" content="https://calculadorakdigoira.github.io/">
     <meta property="og:type" content="website">
     <meta property="og:image" content="imagen.png">
@@ -14,12 +15,13 @@
     <meta name="twitter:title" content="Calculadora KDIGO IRA">
     <meta name="twitter:description" content="Calculadora en línea para determinar la clasificación KDIGO IRA según los parámetros de creatinina, peso y diuresis.">
     <meta name="twitter:image" content="imagen.png">
-    <title>Calculadora KDIGO IRA</title>
+    <title>Calculadora KDIGO IRA - Insuficiencia Renal Aguda</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h2>Calculadora KDIGO IRA</h2>
+        <h1>Calculadora de clasificación KDIGO para Insuficiencia Renal Aguda (IRA)</h1>
+        <p>Calcula el grado de insuficiencia renal aguda (IRA) utilizando la clasificación KDIGO con los parámetros de creatinina, peso y diuresis.</p>
         
         <div class="form-group">
             <label for="peso">Peso (kg):</label>
@@ -41,7 +43,7 @@
             <input type="number" id="diuresis" min="0" step="1" placeholder="Ingrese la diuresis en 24 h">
         </div>
 
-        <button onclick="calcularKDIGO()">Calcular KDIGO</button>
+        <button onclick="calcularKDIGO()">Calcular KDIGO IRA</button>
         
         <div id="error" class="error-message"></div>
         <div id="resultado" class="resultado">
